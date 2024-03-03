@@ -1,0 +1,15 @@
+[2024-02-10 09:53:15,514] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T09:34:00+00:00 [queued]>
+[2024-02-10 09:53:18,121] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T09:34:00+00:00 [queued]>
+[2024-02-10 09:53:18,536] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:53:18,610] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-02-10 09:53:18,666] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:53:25,168] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): write_date> on 2024-02-10 09:34:00+00:00
+[2024-02-10 09:53:27,938] {standard_task_runner.py:52} INFO - Started process 35455 to run task
+[2024-02-10 09:53:28,594] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag_dependencies', 'write_date', 'scheduled__2024-02-10T09:34:00+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_dependencies.py', '--cfg-path', '/tmp/tmp2gw5t2wf', '--error-file', '/tmp/tmp22mbr8l4']
+[2024-02-10 09:53:28,649] {standard_task_runner.py:80} INFO - Job 107: Subtask write_date
+[2024-02-10 09:53:35,945] {local_task_job.py:221} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-02-10 09:53:36,245] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 35455. PIDs of all processes in the group: [35455]
+[2024-02-10 09:53:36,470] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 35455
+[2024-02-10 09:53:37,327] {process_utils.py:75} INFO - Process psutil.Process(pid=35455, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='09:53:26') (35455) terminated with exit code Negsignal.SIGTERM

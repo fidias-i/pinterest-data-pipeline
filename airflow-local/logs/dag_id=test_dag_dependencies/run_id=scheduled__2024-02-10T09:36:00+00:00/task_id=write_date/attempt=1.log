@@ -1,0 +1,188 @@
+[2024-02-10 10:05:05,949] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T09:36:00+00:00 [queued]>
+[2024-02-10 10:05:06,269] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T09:36:00+00:00 [queued]>
+[2024-02-10 10:05:06,299] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 10:05:06,305] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-02-10 10:05:06,323] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 10:05:08,316] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): write_date> on 2024-02-10 09:36:00+00:00
+[2024-02-10 10:05:08,550] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag_dependencies', 'write_date', 'scheduled__2024-02-10T09:36:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_dependencies.py', '--cfg-path', '/tmp/tmp69yx_9wa', '--error-file', '/tmp/tmpbk0yqk60']
+[2024-02-10 10:05:08,587] {standard_task_runner.py:80} INFO - Job 108: Subtask write_date
+[2024-02-10 10:05:08,518] {standard_task_runner.py:52} INFO - Started process 35475 to run task
+[2024-02-10 10:05:14,060] {task_command.py:369} INFO - Running <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T09:36:00+00:00 [running]> on host f4c5b03650dc
+[2024-02-10 10:05:16,555] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=fidiasierides@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Fidias
+AIRFLOW_CTX_DAG_ID=test_dag_dependencies
+AIRFLOW_CTX_TASK_ID=write_date
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-10T09:36:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-10T09:36:00+00:00
+[2024-02-10 10:05:16,590] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-10 10:05:16,641] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'cd "~/Documents/GitHub/weather-data-store" && date >> date.txt']
+[2024-02-10 10:05:17,396] {subprocess.py:85} INFO - Output:
+[2024-02-10 10:05:19,703] {subprocess.py:92} INFO - bash: line 1: cd: ~/Documents/GitHub/weather-data-store: No such file or directory
+[2024-02-10 10:05:19,756] {subprocess.py:96} INFO - Command exited with return code 1
+[2024-02-10 10:05:22,672] {local_task_job.py:221} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-02-10 10:05:22,851] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 35475. PIDs of all processes in the group: [35475]
+[2024-02-10 10:05:22,857] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 35475
+[2024-02-10 10:05:22,901] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-10 10:05:22,910] {subprocess.py:103} INFO - Sending SIGTERM signal to process group
+[2024-02-10 10:05:22,968] {logging_mixin.py:115} WARNING - --- Logging error ---
+[2024-02-10 10:05:23,189] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2024-02-10 10:05:23,222] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+[2024-02-10 10:05:23,234] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1598, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+[2024-02-10 10:05:23,246] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1659, in _execute_task
+    result = execute_callable(context=context)
+[2024-02-10 10:05:23,248] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+[2024-02-10 10:05:23,262] {logging_mixin.py:115} WARNING - ***.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-02-10 10:05:23,271] {logging_mixin.py:115} WARNING - 
+During handling of the above exception, another exception occurred:
+[2024-02-10 10:05:23,272] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2024-02-10 10:05:23,279] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 1025, in emit
+    msg = self.format(record)
+[2024-02-10 10:05:23,287] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 869, in format
+    return fmt.format(record)
+[2024-02-10 10:05:23,328] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 616, in format
+    record.exc_text = self.formatException(record.exc_info)
+[2024-02-10 10:05:23,347] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 566, in formatException
+    traceback.print_exception(ei[0], ei[1], tb, None, sio)
+[2024-02-10 10:05:23,352] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1542, in signal_handler
+    self.task.on_kill()
+[2024-02-10 10:05:23,354] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/operators/bash.py", line 200, in on_kill
+    self.subprocess_hook.send_sigterm()
+[2024-02-10 10:05:23,369] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/hooks/subprocess.py", line 105, in send_sigterm
+    os.killpg(os.getpgid(self.sub_process.pid), signal.SIGTERM)
+[2024-02-10 10:05:23,380] {logging_mixin.py:115} WARNING - ProcessLookupError: [Errno 3] No such process
+[2024-02-10 10:05:23,382] {logging_mixin.py:115} WARNING - Call stack:
+[2024-02-10 10:05:26,881] {logging_mixin.py:115} WARNING -   File "/home/***/.local/bin/***", line 8, in <module>
+    sys.exit(main())
+[2024-02-10 10:05:26,936] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/__main__.py", line 38, in main
+    args.func(args)
+[2024-02-10 10:05:26,948] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/cli_parser.py", line 51, in command
+    return func(*args, **kwargs)
+[2024-02-10 10:05:26,988] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/utils/cli.py", line 99, in wrapper
+    return f(*args, **kwargs)
+[2024-02-10 10:05:27,024] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/celery_command.py", line 194, in worker
+    _run_worker(options=options, skip_serve_logs=skip_serve_logs)
+[2024-02-10 10:05:27,106] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/celery_command.py", line 94, in _run_worker
+    celery_app.worker_main(options)
+[2024-02-10 10:05:27,136] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/app/base.py", line 391, in worker_main
+    self.start(argv=argv)
+[2024-02-10 10:05:27,182] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/app/base.py", line 371, in start
+    celery.main(args=argv, standalone_mode=False)
+[2024-02-10 10:05:27,193] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+[2024-02-10 10:05:27,217] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[2024-02-10 10:05:27,218] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+[2024-02-10 10:05:27,233] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+[2024-02-10 10:05:27,259] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/click/decorators.py", line 26, in new_func
+    return f(get_current_context(), *args, **kwargs)
+[2024-02-10 10:05:27,271] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/bin/base.py", line 134, in caller
+    return f(ctx, *args, **kwargs)
+[2024-02-10 10:05:27,279] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/bin/worker.py", line 351, in worker
+    worker.start()
+[2024-02-10 10:05:27,292] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/worker/worker.py", line 203, in start
+    self.blueprint.start(self)
+[2024-02-10 10:05:27,335] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+[2024-02-10 10:05:27,534] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+[2024-02-10 10:05:27,536] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/concurrency/base.py", line 129, in start
+    self.on_start()
+[2024-02-10 10:05:27,537] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/concurrency/prefork.py", line 115, in on_start
+    **self.options)
+[2024-02-10 10:05:27,570] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/concurrency/asynpool.py", line 463, in __init__
+    super().__init__(processes, *args, **kwargs)
+[2024-02-10 10:05:27,573] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/pool.py", line 1046, in __init__
+    self._create_worker_process(i)
+[2024-02-10 10:05:27,626] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/concurrency/asynpool.py", line 480, in _create_worker_process
+    return super()._create_worker_process(i)
+[2024-02-10 10:05:27,676] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/pool.py", line 1158, in _create_worker_process
+    w.start()
+[2024-02-10 10:05:27,690] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/process.py", line 124, in start
+    self._popen = self._Popen(self)
+[2024-02-10 10:05:27,763] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/context.py", line 333, in _Popen
+    return Popen(process_obj)
+[2024-02-10 10:05:27,771] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/popen_fork.py", line 24, in __init__
+    self._launch(process_obj)
+[2024-02-10 10:05:27,797] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/popen_fork.py", line 79, in _launch
+    code = process_obj._bootstrap()
+[2024-02-10 10:05:27,875] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/process.py", line 327, in _bootstrap
+    self.run()
+[2024-02-10 10:05:27,877] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+[2024-02-10 10:05:27,891] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/pool.py", line 292, in __call__
+    sys.exit(self.workloop(pid=pid))
+[2024-02-10 10:05:27,896] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/billiard/pool.py", line 362, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+[2024-02-10 10:05:27,900] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/app/trace.py", line 650, in fast_trace_task
+    uuid, args, kwargs, request,
+[2024-02-10 10:05:27,909] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+[2024-02-10 10:05:27,916] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+[2024-02-10 10:05:27,923] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/executors/celery_executor.py", line 90, in execute_command
+    _execute_in_fork(command_to_exec, celery_task_id)
+[2024-02-10 10:05:27,945] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/executors/celery_executor.py", line 125, in _execute_in_fork
+    args.func(args)
+[2024-02-10 10:05:27,951] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/cli_parser.py", line 51, in command
+    return func(*args, **kwargs)
+[2024-02-10 10:05:27,970] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/utils/cli.py", line 99, in wrapper
+    return f(*args, **kwargs)
+[2024-02-10 10:05:28,021] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/task_command.py", line 375, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+[2024-02-10 10:05:28,026] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/task_command.py", line 181, in _run_task_by_selected_method
+    _run_task_by_local_task_job(args, ti)
+[2024-02-10 10:05:28,027] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/task_command.py", line 239, in _run_task_by_local_task_job
+    run_job.run()
+[2024-02-10 10:05:28,030] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/jobs/base_job.py", line 244, in run
+    self._execute()
+[2024-02-10 10:05:28,031] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/jobs/local_task_job.py", line 105, in _execute
+    self.task_runner.start()
+[2024-02-10 10:05:28,036] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/task/task_runner/standard_task_runner.py", line 41, in start
+    self.process = self._start_by_fork()
+[2024-02-10 10:05:28,038] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/task/task_runner/standard_task_runner.py", line 88, in _start_by_fork
+    args.func(args, dag=self.dag)
+[2024-02-10 10:05:28,044] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/cli_parser.py", line 51, in command
+    return func(*args, **kwargs)
+[2024-02-10 10:05:28,049] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/utils/cli.py", line 99, in wrapper
+    return f(*args, **kwargs)
+[2024-02-10 10:05:28,068] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/task_command.py", line 375, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+[2024-02-10 10:05:28,069] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/task_command.py", line 183, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+[2024-02-10 10:05:28,075] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/cli/commands/task_command.py", line 260, in _run_raw_task
+    error_file=args.error_file,
+[2024-02-10 10:05:28,076] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-02-10 10:05:28,078] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1504, in _run_raw_task
+    self.handle_failure(e, test_mode, error_file=error_file, session=session)
+[2024-02-10 10:05:28,098] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+[2024-02-10 10:05:28,107] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1889, in handle_failure
+    self.log.error("Task failed with exception", exc_info=(type(error), error, tb))
+[2024-02-10 10:05:28,127] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 1407, in error
+    self._log(ERROR, msg, args, **kwargs)
+[2024-02-10 10:05:28,130] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+[2024-02-10 10:05:28,132] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+[2024-02-10 10:05:28,146] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+[2024-02-10 10:05:28,193] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+[2024-02-10 10:05:28,281] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/utils/log/file_task_handler.py", line 67, in emit
+    self.handler.emit(record)
+[2024-02-10 10:05:28,310] {logging_mixin.py:115} WARNING - Message: 'Task failed with exception'
+Arguments: ()
+[2024-02-10 10:05:29,452] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=test_dag_dependencies, task_id=write_date, execution_date=20240210T093600, start_date=20240210T100506, end_date=20240210T100529
+[2024-02-10 10:05:31,390] {standard_task_runner.py:97} ERROR - Failed to execute job 108 for task write_date (Bash command failed. The command returned a non-zero exit code 1.; 35475)
+[2024-02-10 10:05:32,230] {process_utils.py:75} INFO - Process psutil.Process(pid=35475, status='terminated', exitcode=1, started='10:05:08') (35475) terminated with exit code 1

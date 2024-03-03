@@ -1,0 +1,903 @@
+[2024-02-11 00:01:13,826] {processor.py:153} INFO - Started process (PID=4398) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:01:13,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:01:13,831] {logging_mixin.py:115} INFO - [2024-02-11 00:01:13,831] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:01:13,886] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:01:13,990] {logging_mixin.py:115} INFO - [2024-02-11 00:01:13,990] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:01:14,076] {logging_mixin.py:115} INFO - [2024-02-11 00:01:14,076] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-11T00:01:00+00:00
+[2024-02-11 00:01:14,135] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.327 seconds
+[2024-02-11 00:01:44,394] {processor.py:153} INFO - Started process (PID=4466) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:01:44,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:01:44,396] {logging_mixin.py:115} INFO - [2024-02-11 00:01:44,396] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:01:44,411] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:01:44,435] {logging_mixin.py:115} INFO - [2024-02-11 00:01:44,435] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:01:44,451] {logging_mixin.py:115} INFO - [2024-02-11 00:01:44,451] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-11T00:01:00+00:00
+[2024-02-11 00:01:44,458] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.071 seconds
+[2024-02-11 00:06:56,076] {processor.py:153} INFO - Started process (PID=4526) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:06:56,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:06:56,079] {logging_mixin.py:115} INFO - [2024-02-11 00:06:56,078] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:06:56,093] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:06:56,145] {logging_mixin.py:115} INFO - [2024-02-11 00:06:56,145] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:06:56,188] {logging_mixin.py:115} INFO - [2024-02-11 00:06:56,188] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:05:00+00:00, run_after=2024-02-11T00:06:00+00:00
+[2024-02-11 00:06:57,685] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 1.613 seconds
+[2024-02-11 00:07:28,633] {processor.py:153} INFO - Started process (PID=4590) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:07:28,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:07:28,636] {logging_mixin.py:115} INFO - [2024-02-11 00:07:28,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:07:28,683] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:07:28,710] {logging_mixin.py:115} INFO - [2024-02-11 00:07:28,710] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:07:28,731] {logging_mixin.py:115} INFO - [2024-02-11 00:07:28,731] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:06:00+00:00, run_after=2024-02-11T00:07:00+00:00
+[2024-02-11 00:07:28,944] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.320 seconds
+[2024-02-11 00:07:59,826] {processor.py:153} INFO - Started process (PID=4654) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:07:59,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:07:59,829] {logging_mixin.py:115} INFO - [2024-02-11 00:07:59,829] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:07:59,851] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:07:59,890] {logging_mixin.py:115} INFO - [2024-02-11 00:07:59,890] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:07:59,915] {logging_mixin.py:115} INFO - [2024-02-11 00:07:59,915] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:06:00+00:00, run_after=2024-02-11T00:07:00+00:00
+[2024-02-11 00:08:00,119] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.300 seconds
+[2024-02-11 00:41:40,835] {processor.py:153} INFO - Started process (PID=4708) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:41:40,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:41:40,845] {logging_mixin.py:115} INFO - [2024-02-11 00:41:40,845] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:41:40,908] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:41:41,076] {logging_mixin.py:115} INFO - [2024-02-11 00:41:41,075] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:41:42,210] {logging_mixin.py:115} INFO - [2024-02-11 00:41:42,210] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:40:00+00:00, run_after=2024-02-11T00:41:00+00:00
+[2024-02-11 00:41:42,243] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 1.436 seconds
+[2024-02-11 00:58:36,391] {processor.py:153} INFO - Started process (PID=4776) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:58:36,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 00:58:36,400] {logging_mixin.py:115} INFO - [2024-02-11 00:58:36,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:58:36,470] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 00:58:36,559] {logging_mixin.py:115} INFO - [2024-02-11 00:58:36,558] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 00:58:40,676] {logging_mixin.py:115} INFO - [2024-02-11 00:58:40,676] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T00:57:00+00:00, run_after=2024-02-11T00:58:00+00:00
+[2024-02-11 00:58:40,721] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 4.354 seconds
+[2024-02-11 02:19:42,278] {processor.py:153} INFO - Started process (PID=4845) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 02:19:42,292] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 02:19:42,298] {logging_mixin.py:115} INFO - [2024-02-11 02:19:42,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 02:19:42,406] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 02:19:42,558] {logging_mixin.py:115} INFO - [2024-02-11 02:19:42,557] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 02:19:43,201] {logging_mixin.py:115} INFO - [2024-02-11 02:19:43,201] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T02:18:00+00:00, run_after=2024-02-11T02:19:00+00:00
+[2024-02-11 02:19:43,225] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.964 seconds
+[2024-02-11 03:26:55,058] {processor.py:153} INFO - Started process (PID=4906) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 03:26:55,062] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 03:26:55,066] {logging_mixin.py:115} INFO - [2024-02-11 03:26:55,065] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 03:26:55,113] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 03:26:56,204] {logging_mixin.py:115} INFO - [2024-02-11 03:26:56,204] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 03:26:56,301] {logging_mixin.py:115} INFO - [2024-02-11 03:26:56,293] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T03:25:00+00:00, run_after=2024-02-11T03:26:00+00:00
+[2024-02-11 03:26:56,356] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 1.303 seconds
+[2024-02-11 03:32:22,957] {processor.py:153} INFO - Started process (PID=4970) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 03:32:22,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 03:32:22,959] {logging_mixin.py:115} INFO - [2024-02-11 03:32:22,959] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 03:32:22,973] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 03:32:23,006] {logging_mixin.py:115} INFO - [2024-02-11 03:32:23,005] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 03:32:23,039] {logging_mixin.py:115} INFO - [2024-02-11 03:32:23,038] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T03:31:00+00:00, run_after=2024-02-11T03:32:00+00:00
+[2024-02-11 03:32:23,047] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.097 seconds
+[2024-02-11 04:04:46,642] {processor.py:153} INFO - Started process (PID=5031) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 04:04:46,647] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 04:04:46,650] {logging_mixin.py:115} INFO - [2024-02-11 04:04:46,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 04:04:46,689] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 04:04:46,763] {logging_mixin.py:115} INFO - [2024-02-11 04:04:46,763] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 04:04:46,840] {logging_mixin.py:115} INFO - [2024-02-11 04:04:46,840] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T04:03:00+00:00, run_after=2024-02-11T04:04:00+00:00
+[2024-02-11 04:04:46,914] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.296 seconds
+[2024-02-11 04:22:59,785] {processor.py:153} INFO - Started process (PID=5103) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 04:22:59,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 04:22:59,791] {logging_mixin.py:115} INFO - [2024-02-11 04:22:59,791] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 04:22:59,828] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 04:22:59,877] {logging_mixin.py:115} INFO - [2024-02-11 04:22:59,877] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 04:22:59,935] {logging_mixin.py:115} INFO - [2024-02-11 04:22:59,935] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T04:21:00+00:00, run_after=2024-02-11T04:22:00+00:00
+[2024-02-11 04:22:59,971] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.192 seconds
+[2024-02-11 05:29:01,399] {processor.py:153} INFO - Started process (PID=5158) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 05:29:01,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 05:29:01,401] {logging_mixin.py:115} INFO - [2024-02-11 05:29:01,401] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 05:29:01,426] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 05:29:01,468] {logging_mixin.py:115} INFO - [2024-02-11 05:29:01,468] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 05:29:01,490] {logging_mixin.py:115} INFO - [2024-02-11 05:29:01,489] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T05:28:00+00:00, run_after=2024-02-11T05:29:00+00:00
+[2024-02-11 05:29:01,500] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.107 seconds
+[2024-02-11 05:33:23,218] {processor.py:153} INFO - Started process (PID=5227) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 05:33:23,222] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 05:33:23,227] {logging_mixin.py:115} INFO - [2024-02-11 05:33:23,227] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 05:33:23,271] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 05:33:23,378] {logging_mixin.py:115} INFO - [2024-02-11 05:33:23,378] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 05:33:23,418] {logging_mixin.py:115} INFO - [2024-02-11 05:33:23,418] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T05:32:00+00:00, run_after=2024-02-11T05:33:00+00:00
+[2024-02-11 05:33:23,461] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.260 seconds
+[2024-02-11 06:21:35,583] {processor.py:153} INFO - Started process (PID=5282) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 06:21:35,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 06:21:35,588] {logging_mixin.py:115} INFO - [2024-02-11 06:21:35,588] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 06:21:35,613] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 06:21:35,650] {logging_mixin.py:115} INFO - [2024-02-11 06:21:35,650] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 06:21:35,669] {logging_mixin.py:115} INFO - [2024-02-11 06:21:35,669] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T06:20:00+00:00, run_after=2024-02-11T06:21:00+00:00
+[2024-02-11 06:21:35,687] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.109 seconds
+[2024-02-11 06:34:21,448] {processor.py:153} INFO - Started process (PID=5356) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 06:34:21,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 06:34:21,462] {logging_mixin.py:115} INFO - [2024-02-11 06:34:21,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 06:34:21,537] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 06:34:21,681] {logging_mixin.py:115} INFO - [2024-02-11 06:34:21,680] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 06:34:21,801] {logging_mixin.py:115} INFO - [2024-02-11 06:34:21,801] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T06:33:00+00:00, run_after=2024-02-11T06:34:00+00:00
+[2024-02-11 06:34:21,849] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.425 seconds
+[2024-02-11 07:08:47,226] {processor.py:153} INFO - Started process (PID=5410) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 07:08:47,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 07:08:47,228] {logging_mixin.py:115} INFO - [2024-02-11 07:08:47,228] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 07:08:47,251] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 07:08:47,284] {logging_mixin.py:115} INFO - [2024-02-11 07:08:47,284] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 07:08:47,324] {logging_mixin.py:115} INFO - [2024-02-11 07:08:47,323] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T07:07:00+00:00, run_after=2024-02-11T07:08:00+00:00
+[2024-02-11 07:08:47,772] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.551 seconds
+[2024-02-11 07:35:18,580] {processor.py:153} INFO - Started process (PID=5483) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 07:35:18,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 07:35:18,585] {logging_mixin.py:115} INFO - [2024-02-11 07:35:18,585] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 07:35:18,622] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 07:35:18,673] {logging_mixin.py:115} INFO - [2024-02-11 07:35:18,673] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 07:35:18,941] {logging_mixin.py:115} INFO - [2024-02-11 07:35:18,941] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T07:34:00+00:00, run_after=2024-02-11T07:35:00+00:00
+[2024-02-11 07:35:18,949] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.373 seconds
+[2024-02-11 08:02:36,516] {processor.py:153} INFO - Started process (PID=5547) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:02:36,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:02:36,530] {logging_mixin.py:115} INFO - [2024-02-11 08:02:36,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:02:36,634] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:02:36,828] {logging_mixin.py:115} INFO - [2024-02-11 08:02:36,828] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:02:39,365] {logging_mixin.py:115} INFO - [2024-02-11 08:02:39,364] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:01:00+00:00, run_after=2024-02-11T08:02:00+00:00
+[2024-02-11 08:02:39,395] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 2.915 seconds
+[2024-02-11 08:03:10,326] {processor.py:153} INFO - Started process (PID=5615) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:03:10,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:03:10,331] {logging_mixin.py:115} INFO - [2024-02-11 08:03:10,331] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:03:10,370] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:03:10,390] {logging_mixin.py:115} INFO - [2024-02-11 08:03:10,390] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:03:10,685] {logging_mixin.py:115} INFO - [2024-02-11 08:03:10,685] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:02:00+00:00, run_after=2024-02-11T08:03:00+00:00
+[2024-02-11 08:03:10,697] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.377 seconds
+[2024-02-11 08:05:37,107] {processor.py:153} INFO - Started process (PID=5670) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:05:37,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:05:37,112] {logging_mixin.py:115} INFO - [2024-02-11 08:05:37,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:05:37,162] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:05:37,230] {logging_mixin.py:115} INFO - [2024-02-11 08:05:37,230] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:05:37,774] {logging_mixin.py:115} INFO - [2024-02-11 08:05:37,773] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:04:00+00:00, run_after=2024-02-11T08:05:00+00:00
+[2024-02-11 08:05:37,792] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.694 seconds
+[2024-02-11 08:06:07,848] {processor.py:153} INFO - Started process (PID=5734) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:06:07,849] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:06:07,850] {logging_mixin.py:115} INFO - [2024-02-11 08:06:07,850] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:06:07,879] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:06:07,914] {logging_mixin.py:115} INFO - [2024-02-11 08:06:07,914] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:06:08,184] {logging_mixin.py:115} INFO - [2024-02-11 08:06:08,184] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:05:00+00:00, run_after=2024-02-11T08:06:00+00:00
+[2024-02-11 08:06:08,191] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.349 seconds
+[2024-02-11 08:06:38,857] {processor.py:153} INFO - Started process (PID=5798) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:06:38,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:06:38,860] {logging_mixin.py:115} INFO - [2024-02-11 08:06:38,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:06:38,881] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:06:38,912] {logging_mixin.py:115} INFO - [2024-02-11 08:06:38,912] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:06:39,245] {logging_mixin.py:115} INFO - [2024-02-11 08:06:39,245] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:05:00+00:00, run_after=2024-02-11T08:06:00+00:00
+[2024-02-11 08:06:39,263] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.417 seconds
+[2024-02-11 08:07:09,636] {processor.py:153} INFO - Started process (PID=5862) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:07:09,638] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:07:09,639] {logging_mixin.py:115} INFO - [2024-02-11 08:07:09,638] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:07:09,651] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:07:09,685] {logging_mixin.py:115} INFO - [2024-02-11 08:07:09,685] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:07:09,960] {logging_mixin.py:115} INFO - [2024-02-11 08:07:09,960] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:06:00+00:00, run_after=2024-02-11T08:07:00+00:00
+[2024-02-11 08:07:09,966] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.335 seconds
+[2024-02-11 08:07:40,162] {processor.py:153} INFO - Started process (PID=5917) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:07:40,164] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:07:40,165] {logging_mixin.py:115} INFO - [2024-02-11 08:07:40,165] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:07:40,180] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:07:40,212] {logging_mixin.py:115} INFO - [2024-02-11 08:07:40,212] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:07:40,410] {logging_mixin.py:115} INFO - [2024-02-11 08:07:40,410] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:06:00+00:00, run_after=2024-02-11T08:07:00+00:00
+[2024-02-11 08:07:40,419] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.262 seconds
+[2024-02-11 08:08:11,115] {processor.py:153} INFO - Started process (PID=5981) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:08:11,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:08:11,119] {logging_mixin.py:115} INFO - [2024-02-11 08:08:11,119] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:08:11,138] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:08:11,179] {logging_mixin.py:115} INFO - [2024-02-11 08:08:11,179] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:08:11,466] {logging_mixin.py:115} INFO - [2024-02-11 08:08:11,466] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:07:00+00:00, run_after=2024-02-11T08:08:00+00:00
+[2024-02-11 08:08:11,475] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.368 seconds
+[2024-02-11 08:08:42,484] {processor.py:153} INFO - Started process (PID=6045) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:08:42,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 08:08:42,489] {logging_mixin.py:115} INFO - [2024-02-11 08:08:42,489] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:08:42,527] {processor.py:651} INFO - DAG(s) dict_keys(['12acc47946a5_dag']) retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 08:08:42,591] {logging_mixin.py:115} INFO - [2024-02-11 08:08:42,590] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-02-11 08:08:43,094] {logging_mixin.py:115} INFO - [2024-02-11 08:08:43,094] {dag.py:2919} INFO - Setting next_dagrun for 12acc47946a5_dag to 2024-02-11T08:07:00+00:00, run_after=2024-02-11T08:08:00+00:00
+[2024-02-11 08:08:43,102] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.627 seconds
+[2024-02-11 12:16:11,003] {processor.py:153} INFO - Started process (PID=44) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:16:11,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:16:11,014] {logging_mixin.py:115} INFO - [2024-02-11 12:16:11,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:16:11,061] {logging_mixin.py:115} INFO - [2024-02-11 12:16:11,051] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:16:11,062] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:16:11,113] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.115 seconds
+[2024-02-11 12:16:41,897] {processor.py:153} INFO - Started process (PID=106) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:16:41,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:16:41,940] {logging_mixin.py:115} INFO - [2024-02-11 12:16:41,938] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:16:42,016] {logging_mixin.py:115} INFO - [2024-02-11 12:16:41,985] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:16:42,020] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:16:42,301] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.411 seconds
+[2024-02-11 12:17:12,900] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:17:12,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:17:12,906] {logging_mixin.py:115} INFO - [2024-02-11 12:17:12,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:17:12,917] {logging_mixin.py:115} INFO - [2024-02-11 12:17:12,914] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:17:12,918] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:17:12,977] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.100 seconds
+[2024-02-11 12:17:43,364] {processor.py:153} INFO - Started process (PID=226) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:17:43,365] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:17:43,366] {logging_mixin.py:115} INFO - [2024-02-11 12:17:43,365] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:17:43,371] {logging_mixin.py:115} INFO - [2024-02-11 12:17:43,370] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:17:43,372] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:17:43,407] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.048 seconds
+[2024-02-11 12:18:13,933] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:18:13,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:18:13,942] {logging_mixin.py:115} INFO - [2024-02-11 12:18:13,942] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:18:13,959] {logging_mixin.py:115} INFO - [2024-02-11 12:18:13,957] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:18:13,960] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:18:14,027] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.107 seconds
+[2024-02-11 12:18:44,085] {processor.py:153} INFO - Started process (PID=345) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:18:44,086] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:18:44,086] {logging_mixin.py:115} INFO - [2024-02-11 12:18:44,086] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:18:44,094] {logging_mixin.py:115} INFO - [2024-02-11 12:18:44,092] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:18:44,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:18:44,141] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.061 seconds
+[2024-02-11 12:19:14,930] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:19:14,931] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:19:14,932] {logging_mixin.py:115} INFO - [2024-02-11 12:19:14,932] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:19:14,937] {logging_mixin.py:115} INFO - [2024-02-11 12:19:14,936] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:19:14,937] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:19:14,965] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.040 seconds
+[2024-02-11 12:19:45,719] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:19:45,720] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:19:45,721] {logging_mixin.py:115} INFO - [2024-02-11 12:19:45,721] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:19:45,727] {logging_mixin.py:115} INFO - [2024-02-11 12:19:45,726] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:19:45,727] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:19:45,772] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.058 seconds
+[2024-02-11 12:20:16,493] {processor.py:153} INFO - Started process (PID=526) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:20:16,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:20:16,495] {logging_mixin.py:115} INFO - [2024-02-11 12:20:16,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:20:16,502] {logging_mixin.py:115} INFO - [2024-02-11 12:20:16,501] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:20:16,502] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:20:16,552] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.063 seconds
+[2024-02-11 12:20:47,126] {processor.py:153} INFO - Started process (PID=590) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:20:47,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:20:47,129] {logging_mixin.py:115} INFO - [2024-02-11 12:20:47,129] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:20:47,134] {logging_mixin.py:115} INFO - [2024-02-11 12:20:47,134] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:20:47,135] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:20:47,166] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.046 seconds
+[2024-02-11 12:21:17,395] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:21:17,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:21:17,398] {logging_mixin.py:115} INFO - [2024-02-11 12:21:17,398] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:21:17,404] {logging_mixin.py:115} INFO - [2024-02-11 12:21:17,403] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:21:17,404] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:21:17,434] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.045 seconds
+[2024-02-11 12:21:47,556] {processor.py:153} INFO - Started process (PID=712) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:21:47,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:21:47,559] {logging_mixin.py:115} INFO - [2024-02-11 12:21:47,559] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:21:47,564] {logging_mixin.py:115} INFO - [2024-02-11 12:21:47,563] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:21:47,565] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:21:47,579] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.028 seconds
+[2024-02-11 12:22:17,749] {processor.py:153} INFO - Started process (PID=774) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:22:17,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:22:17,752] {logging_mixin.py:115} INFO - [2024-02-11 12:22:17,751] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:22:17,760] {logging_mixin.py:115} INFO - [2024-02-11 12:22:17,758] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:22:17,760] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:22:17,801] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.059 seconds
+[2024-02-11 12:23:18,552] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:23:18,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:23:18,556] {logging_mixin.py:115} INFO - [2024-02-11 12:23:18,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:23:18,564] {logging_mixin.py:115} INFO - [2024-02-11 12:23:18,561] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:23:18,566] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:23:18,604] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.059 seconds
+[2024-02-11 12:24:11,385] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:24:11,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:24:11,393] {logging_mixin.py:115} INFO - [2024-02-11 12:24:11,393] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:24:11,422] {logging_mixin.py:115} INFO - [2024-02-11 12:24:11,418] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:24:11,429] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:24:11,495] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.182 seconds
+[2024-02-11 12:24:41,636] {processor.py:153} INFO - Started process (PID=104) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:24:41,640] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:24:41,643] {logging_mixin.py:115} INFO - [2024-02-11 12:24:41,643] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:24:41,663] {logging_mixin.py:115} INFO - [2024-02-11 12:24:41,656] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:24:41,664] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:24:41,697] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.077 seconds
+[2024-02-11 12:25:11,927] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:25:11,928] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:25:11,931] {logging_mixin.py:115} INFO - [2024-02-11 12:25:11,931] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:25:11,985] {logging_mixin.py:115} INFO - [2024-02-11 12:25:11,981] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:25:11,992] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:25:12,066] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.148 seconds
+[2024-02-11 12:25:42,320] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:25:42,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:25:42,323] {logging_mixin.py:115} INFO - [2024-02-11 12:25:42,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:25:42,338] {logging_mixin.py:115} INFO - [2024-02-11 12:25:42,336] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:25:42,338] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:25:42,357] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.044 seconds
+[2024-02-11 12:26:12,769] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:26:12,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:26:12,771] {logging_mixin.py:115} INFO - [2024-02-11 12:26:12,771] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:26:12,780] {logging_mixin.py:115} INFO - [2024-02-11 12:26:12,777] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:26:12,780] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:26:12,807] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.042 seconds
+[2024-02-11 12:26:43,330] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:26:43,331] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:26:43,331] {logging_mixin.py:115} INFO - [2024-02-11 12:26:43,331] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:26:43,337] {logging_mixin.py:115} INFO - [2024-02-11 12:26:43,336] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:26:43,338] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:26:43,382] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.059 seconds
+[2024-02-11 12:27:14,092] {processor.py:153} INFO - Started process (PID=424) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:27:14,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:27:14,098] {logging_mixin.py:115} INFO - [2024-02-11 12:27:14,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:27:14,107] {logging_mixin.py:115} INFO - [2024-02-11 12:27:14,105] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:27:14,107] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:27:14,153] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.068 seconds
+[2024-02-11 12:27:44,269] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:27:44,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:27:44,275] {logging_mixin.py:115} INFO - [2024-02-11 12:27:44,275] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:27:44,285] {logging_mixin.py:115} INFO - [2024-02-11 12:27:44,282] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:27:44,286] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:27:44,313] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.051 seconds
+[2024-02-11 12:28:14,603] {processor.py:153} INFO - Started process (PID=546) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:28:14,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:28:14,608] {logging_mixin.py:115} INFO - [2024-02-11 12:28:14,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:28:14,616] {logging_mixin.py:115} INFO - [2024-02-11 12:28:14,614] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:28:14,616] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:28:14,638] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.043 seconds
+[2024-02-11 12:28:44,852] {processor.py:153} INFO - Started process (PID=610) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:28:44,856] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:28:44,857] {logging_mixin.py:115} INFO - [2024-02-11 12:28:44,857] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:28:44,865] {logging_mixin.py:115} INFO - [2024-02-11 12:28:44,863] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:28:44,865] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:28:44,903] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.059 seconds
+[2024-02-11 12:29:15,205] {processor.py:153} INFO - Started process (PID=678) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:29:15,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:29:15,208] {logging_mixin.py:115} INFO - [2024-02-11 12:29:15,207] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:29:15,215] {logging_mixin.py:115} INFO - [2024-02-11 12:29:15,214] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:29:15,216] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:29:15,239] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.042 seconds
+[2024-02-11 12:29:46,020] {processor.py:153} INFO - Started process (PID=734) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:29:46,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:29:46,024] {logging_mixin.py:115} INFO - [2024-02-11 12:29:46,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:29:46,030] {logging_mixin.py:115} INFO - [2024-02-11 12:29:46,029] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:29:46,031] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:29:46,048] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.034 seconds
+[2024-02-11 12:30:16,187] {processor.py:153} INFO - Started process (PID=802) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:30:16,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:30:16,194] {logging_mixin.py:115} INFO - [2024-02-11 12:30:16,194] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:30:16,211] {logging_mixin.py:115} INFO - [2024-02-11 12:30:16,210] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:30:16,212] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:30:16,238] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.064 seconds
+[2024-02-11 12:30:46,750] {processor.py:153} INFO - Started process (PID=865) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:30:46,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:30:46,753] {logging_mixin.py:115} INFO - [2024-02-11 12:30:46,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:30:46,762] {logging_mixin.py:115} INFO - [2024-02-11 12:30:46,760] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:30:46,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:30:46,792] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.046 seconds
+[2024-02-11 12:31:17,080] {processor.py:153} INFO - Started process (PID=935) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:31:17,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:31:17,085] {logging_mixin.py:115} INFO - [2024-02-11 12:31:17,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:31:17,095] {logging_mixin.py:115} INFO - [2024-02-11 12:31:17,094] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:31:17,096] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:31:17,113] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.038 seconds
+[2024-02-11 12:31:47,671] {processor.py:153} INFO - Started process (PID=997) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:31:47,676] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:31:47,678] {logging_mixin.py:115} INFO - [2024-02-11 12:31:47,678] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:31:47,688] {logging_mixin.py:115} INFO - [2024-02-11 12:31:47,685] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:31:47,689] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:31:47,712] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.059 seconds
+[2024-02-11 12:32:17,817] {processor.py:153} INFO - Started process (PID=1060) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:32:17,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:32:17,819] {logging_mixin.py:115} INFO - [2024-02-11 12:32:17,819] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:32:17,824] {logging_mixin.py:115} INFO - [2024-02-11 12:32:17,823] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:32:17,824] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:32:17,844] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.030 seconds
+[2024-02-11 12:32:48,348] {processor.py:153} INFO - Started process (PID=1123) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:32:48,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:32:48,350] {logging_mixin.py:115} INFO - [2024-02-11 12:32:48,350] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:32:48,355] {logging_mixin.py:115} INFO - [2024-02-11 12:32:48,354] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:32:48,356] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:32:48,373] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.031 seconds
+[2024-02-11 12:55:15,406] {processor.py:153} INFO - Started process (PID=1186) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:55:15,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:55:15,410] {logging_mixin.py:115} INFO - [2024-02-11 12:55:15,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:55:15,416] {logging_mixin.py:115} INFO - [2024-02-11 12:55:15,415] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:55:15,417] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:55:15,454] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.068 seconds
+[2024-02-11 12:55:46,217] {processor.py:153} INFO - Started process (PID=1254) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:55:46,221] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:55:46,222] {logging_mixin.py:115} INFO - [2024-02-11 12:55:46,221] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:55:46,228] {logging_mixin.py:115} INFO - [2024-02-11 12:55:46,226] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:55:46,228] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:55:46,276] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.081 seconds
+[2024-02-11 12:56:16,361] {processor.py:153} INFO - Started process (PID=1322) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:56:16,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 12:56:16,364] {logging_mixin.py:115} INFO - [2024-02-11 12:56:16,364] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:56:16,373] {logging_mixin.py:115} INFO - [2024-02-11 12:56:16,371] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 12:56:16,373] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 12:56:16,402] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.046 seconds
+[2024-02-11 13:46:05,281] {processor.py:153} INFO - Started process (PID=1394) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 13:46:05,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 13:46:05,294] {logging_mixin.py:115} INFO - [2024-02-11 13:46:05,294] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 13:46:05,363] {logging_mixin.py:115} INFO - [2024-02-11 13:46:05,346] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 13:46:05,366] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 13:46:05,470] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.249 seconds
+[2024-02-11 14:33:04,706] {processor.py:153} INFO - Started process (PID=1448) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:33:04,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 14:33:04,708] {logging_mixin.py:115} INFO - [2024-02-11 14:33:04,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:33:04,716] {logging_mixin.py:115} INFO - [2024-02-11 14:33:04,714] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 14:33:04,716] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:33:04,783] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.084 seconds
+[2024-02-11 14:33:35,319] {processor.py:153} INFO - Started process (PID=1514) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:33:35,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 14:33:35,322] {logging_mixin.py:115} INFO - [2024-02-11 14:33:35,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:33:35,330] {logging_mixin.py:115} INFO - [2024-02-11 14:33:35,329] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 14:33:35,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:33:35,370] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.057 seconds
+[2024-02-11 14:42:34,522] {processor.py:153} INFO - Started process (PID=1582) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:42:34,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 14:42:34,531] {logging_mixin.py:115} INFO - [2024-02-11 14:42:34,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:42:34,558] {logging_mixin.py:115} INFO - [2024-02-11 14:42:34,548] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 14:42:34,561] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:42:34,655] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.153 seconds
+[2024-02-11 14:58:20,489] {processor.py:153} INFO - Started process (PID=1661) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:58:20,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 14:58:20,509] {logging_mixin.py:115} INFO - [2024-02-11 14:58:20,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:58:20,563] {logging_mixin.py:115} INFO - [2024-02-11 14:58:20,560] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 14:58:20,567] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 14:58:20,641] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.181 seconds
+[2024-02-11 15:34:06,270] {processor.py:153} INFO - Started process (PID=1730) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:34:06,275] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 15:34:06,280] {logging_mixin.py:115} INFO - [2024-02-11 15:34:06,280] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:34:06,315] {logging_mixin.py:115} INFO - [2024-02-11 15:34:06,310] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 15:34:06,322] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:34:06,371] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.115 seconds
+[2024-02-11 15:34:36,504] {processor.py:153} INFO - Started process (PID=1797) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:34:36,505] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 15:34:36,505] {logging_mixin.py:115} INFO - [2024-02-11 15:34:36,505] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:34:36,510] {logging_mixin.py:115} INFO - [2024-02-11 15:34:36,509] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 15:34:36,510] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:34:36,532] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.034 seconds
+[2024-02-11 15:41:07,294] {processor.py:153} INFO - Started process (PID=1864) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:41:07,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 15:41:07,302] {logging_mixin.py:115} INFO - [2024-02-11 15:41:07,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:41:07,327] {logging_mixin.py:115} INFO - [2024-02-11 15:41:07,322] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 15:41:07,329] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 15:41:07,427] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.151 seconds
+[2024-02-11 16:05:18,336] {processor.py:153} INFO - Started process (PID=1942) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:05:18,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:05:18,439] {logging_mixin.py:115} INFO - [2024-02-11 16:05:18,439] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:05:19,739] {logging_mixin.py:115} INFO - [2024-02-11 16:05:19,705] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:05:19,768] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:05:21,009] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 2.777 seconds
+[2024-02-11 16:05:51,439] {processor.py:153} INFO - Started process (PID=1997) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:05:51,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:05:51,459] {logging_mixin.py:115} INFO - [2024-02-11 16:05:51,459] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:05:51,509] {logging_mixin.py:115} INFO - [2024-02-11 16:05:51,501] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:05:51,511] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:05:51,656] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.259 seconds
+[2024-02-11 16:06:22,122] {processor.py:153} INFO - Started process (PID=2055) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:06:22,125] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:06:22,126] {logging_mixin.py:115} INFO - [2024-02-11 16:06:22,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:06:22,133] {logging_mixin.py:115} INFO - [2024-02-11 16:06:22,131] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:06:22,134] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:06:22,165] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.050 seconds
+[2024-02-11 16:06:52,969] {processor.py:153} INFO - Started process (PID=2118) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:06:52,976] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:06:52,977] {logging_mixin.py:115} INFO - [2024-02-11 16:06:52,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:06:52,994] {logging_mixin.py:115} INFO - [2024-02-11 16:06:52,993] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:06:52,995] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:06:53,022] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.058 seconds
+[2024-02-11 16:07:23,252] {processor.py:153} INFO - Started process (PID=2186) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:07:23,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:07:23,257] {logging_mixin.py:115} INFO - [2024-02-11 16:07:23,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:07:23,265] {logging_mixin.py:115} INFO - [2024-02-11 16:07:23,262] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:07:23,266] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:07:23,287] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.042 seconds
+[2024-02-11 16:07:53,706] {processor.py:153} INFO - Started process (PID=2250) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:07:53,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:07:53,709] {logging_mixin.py:115} INFO - [2024-02-11 16:07:53,709] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:07:53,714] {logging_mixin.py:115} INFO - [2024-02-11 16:07:53,713] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:07:53,714] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:07:53,732] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.039 seconds
+[2024-02-11 16:08:23,822] {processor.py:153} INFO - Started process (PID=2308) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:08:23,826] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:08:23,827] {logging_mixin.py:115} INFO - [2024-02-11 16:08:23,827] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:08:23,836] {logging_mixin.py:115} INFO - [2024-02-11 16:08:23,832] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:08:23,837] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:08:23,861] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.044 seconds
+[2024-02-11 16:08:54,546] {processor.py:153} INFO - Started process (PID=2372) to work on /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:08:54,557] {processor.py:641} INFO - Processing file /opt/airflow/dags/12acc47946a5_dag.py for tasks to queue
+[2024-02-11 16:08:54,558] {logging_mixin.py:115} INFO - [2024-02-11 16:08:54,557] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:08:54,562] {logging_mixin.py:115} INFO - [2024-02-11 16:08:54,561] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/12acc47946a5_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/12acc47946a5_dag.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksSubmitRunOperator, DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-02-11 16:08:54,563] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/12acc47946a5_dag.py
+[2024-02-11 16:08:54,612] {processor.py:161} INFO - Processing /opt/airflow/dags/12acc47946a5_dag.py took 0.069 seconds

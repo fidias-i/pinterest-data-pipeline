@@ -1,0 +1,50 @@
+[2024-02-10 09:36:11,634] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:31:00+00:00 [queued]>
+[2024-02-10 09:36:11,974] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:31:00+00:00 [queued]>
+[2024-02-10 09:36:11,979] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:36:11,981] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-02-10 09:36:11,982] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:36:13,534] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): write_date> on 2024-02-10 08:31:00+00:00
+[2024-02-10 09:36:13,734] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag_dependencies', 'write_date', 'scheduled__2024-02-10T08:31:00+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_dependencies.py', '--cfg-path', '/tmp/tmpuviy8bmt', '--error-file', '/tmp/tmpv545k9bv']
+[2024-02-10 09:36:13,748] {standard_task_runner.py:80} INFO - Job 104: Subtask write_date
+[2024-02-10 09:36:13,732] {standard_task_runner.py:52} INFO - Started process 35429 to run task
+[2024-02-10 09:36:22,624] {task_command.py:369} INFO - Running <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:31:00+00:00 [running]> on host f4c5b03650dc
+[2024-02-10 09:53:10,458] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=fidiasierides@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Fidias
+AIRFLOW_CTX_DAG_ID=test_dag_dependencies
+AIRFLOW_CTX_TASK_ID=write_date
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-10T08:31:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-10T08:31:00+00:00
+[2024-02-10 09:53:10,654] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-10 09:53:10,809] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'cd "~/Documents/GitHub/weather-data-store" && date >> date.txt']
+[2024-02-10 09:53:12,580] {subprocess.py:85} INFO - Output:
+[2024-02-10 09:53:13,670] {subprocess.py:92} INFO - bash: line 1: cd: ~/Documents/GitHub/weather-data-store: No such file or directory
+[2024-02-10 09:53:13,773] {subprocess.py:96} INFO - Command exited with return code 1
+[2024-02-10 09:53:20,758] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-02-10 09:53:22,363] {local_task_job.py:221} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-02-10 09:53:22,595] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 35429. PIDs of all processes in the group: [35429]
+[2024-02-10 09:53:22,640] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 35429
+[2024-02-10 09:53:22,746] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-10 09:53:22,913] {subprocess.py:103} INFO - Sending SIGTERM signal to process group
+[2024-02-10 09:53:23,117] {logging_mixin.py:115} WARNING - Exception ignored in: <bound method InstanceState._cleanup of <sqlalchemy.orm.state.InstanceState object at 0xffffad9a08d0>>
+[2024-02-10 09:53:23,149] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2024-02-10 09:53:23,179] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 375, in _cleanup
+[2024-02-10 09:53:23,780] {logging_mixin.py:115} WARNING -     def _cleanup(self, ref):
+[2024-02-10 09:53:23,850] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/models/taskinstance.py", line 1542, in signal_handler
+[2024-02-10 09:53:24,007] {logging_mixin.py:115} WARNING -     self.task.on_kill()
+[2024-02-10 09:53:24,057] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/operators/bash.py", line 200, in on_kill
+[2024-02-10 09:53:24,735] {logging_mixin.py:115} WARNING -     self.subprocess_hook.send_sigterm()
+[2024-02-10 09:53:24,880] {logging_mixin.py:115} WARNING -   File "/home/***/.local/lib/python3.7/site-packages/***/hooks/subprocess.py", line 105, in send_sigterm
+[2024-02-10 09:53:25,409] {logging_mixin.py:115} WARNING -     os.killpg(os.getpgid(self.sub_process.pid), signal.SIGTERM)
+[2024-02-10 09:53:25,771] {logging_mixin.py:115} WARNING - ProcessLookupError: [Errno 3] No such process
+[2024-02-10 09:53:27,508] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=test_dag_dependencies, task_id=write_date, execution_date=20240210T083100, start_date=20240210T093611, end_date=20240210T095325
+[2024-02-10 09:53:32,357] {standard_task_runner.py:97} ERROR - Failed to execute job 104 for task write_date (Bash command failed. The command returned a non-zero exit code 1.; 35429)
+[2024-02-10 09:53:33,945] {process_utils.py:75} INFO - Process psutil.Process(pid=35429, status='terminated', exitcode=1, started='09:36:13') (35429) terminated with exit code 1

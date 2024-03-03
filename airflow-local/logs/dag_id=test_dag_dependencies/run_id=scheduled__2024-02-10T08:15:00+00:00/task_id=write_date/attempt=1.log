@@ -1,0 +1,35 @@
+[2024-02-10 08:16:34,554] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:15:00+00:00 [queued]>
+[2024-02-10 08:16:34,638] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:15:00+00:00 [queued]>
+[2024-02-10 08:16:34,641] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 08:16:34,645] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-02-10 08:16:34,646] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 08:16:34,839] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): write_date> on 2024-02-10 08:15:00+00:00
+[2024-02-10 08:16:34,895] {standard_task_runner.py:52} INFO - Started process 34756 to run task
+[2024-02-10 08:16:34,987] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag_dependencies', 'write_date', 'scheduled__2024-02-10T08:15:00+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_dependencies.py', '--cfg-path', '/tmp/tmpq00_p9sz', '--error-file', '/tmp/tmpvawrspug']
+[2024-02-10 08:16:34,991] {standard_task_runner.py:80} INFO - Job 75: Subtask write_date
+[2024-02-10 08:16:35,350] {task_command.py:369} INFO - Running <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:15:00+00:00 [running]> on host f4c5b03650dc
+[2024-02-10 08:16:36,061] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=fidiasierides@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Fidias
+AIRFLOW_CTX_DAG_ID=test_dag_dependencies
+AIRFLOW_CTX_TASK_ID=write_date
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-10T08:15:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-10T08:15:00+00:00
+[2024-02-10 08:16:36,094] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-10 08:16:36,125] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'WORKDIR "/Documents/GitHub/weather-data-store" && date >> date.txt']
+[2024-02-10 08:16:36,230] {subprocess.py:85} INFO - Output:
+[2024-02-10 08:16:36,255] {subprocess.py:92} INFO - bash: line 1: WORKDIR: command not found
+[2024-02-10 08:16:36,257] {subprocess.py:96} INFO - Command exited with return code 127
+[2024-02-10 08:16:36,382] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-02-10 08:16:36,505] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=test_dag_dependencies, task_id=write_date, execution_date=20240210T081500, start_date=20240210T081634, end_date=20240210T081636
+[2024-02-10 08:16:36,683] {standard_task_runner.py:97} ERROR - Failed to execute job 75 for task write_date (Bash command failed. The command returned a non-zero exit code 127.; 34756)
+[2024-02-10 08:16:36,925] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-02-10 08:16:37,688] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

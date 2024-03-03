@@ -1,0 +1,49 @@
+[2024-02-10 09:53:23,328] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:51:00+00:00 [queued]>
+[2024-02-10 09:53:24,615] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:51:00+00:00 [queued]>
+[2024-02-10 09:53:24,752] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:53:25,038] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-02-10 09:53:25,241] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:53:29,754] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): write_date> on 2024-02-10 08:51:00+00:00
+[2024-02-10 09:53:30,658] {standard_task_runner.py:52} INFO - Started process 35458 to run task
+[2024-02-10 09:53:31,037] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag_dependencies', 'write_date', 'scheduled__2024-02-10T08:51:00+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_dependencies.py', '--cfg-path', '/tmp/tmp8obzxwg8', '--error-file', '/tmp/tmpufaareap']
+[2024-02-10 09:53:31,183] {standard_task_runner.py:80} INFO - Job 106: Subtask write_date
+[2024-02-10 09:53:54,340] {task_command.py:369} INFO - Running <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:51:00+00:00 [running]> on host f4c5b03650dc
+[2024-02-10 09:53:56,316] {local_task_job.py:221} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-02-10 09:53:56,636] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 35458. PIDs of all processes in the group: [35458]
+[2024-02-10 09:53:56,695] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 35458
+[2024-02-10 09:53:56,722] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-10 09:53:56,903] {subprocess.py:103} INFO - Sending SIGTERM signal to process group
+[2024-02-10 09:53:58,942] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2202, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1179, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 348, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 387, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 1092, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 749, in compile
+    source = self._parse(source, name, filename)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 606, in _parse
+    return Parser(self, source, name, filename).parse()
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/parser.py", line 1038, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/parser.py", line 1008, in subparse
+    add_data(nodes.TemplateData(token.value, lineno=token.lineno))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1543, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-02-10 09:54:00,105] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=test_dag_dependencies, task_id=write_date, execution_date=20240210T085100, start_date=20240210T095323, end_date=20240210T095359
+[2024-02-10 09:54:00,888] {standard_task_runner.py:97} ERROR - Failed to execute job 106 for task write_date (Task received SIGTERM signal; 35458)
+[2024-02-10 09:54:01,180] {process_utils.py:75} INFO - Process psutil.Process(pid=35458, status='terminated', exitcode=1, started='09:53:29') (35458) terminated with exit code 1

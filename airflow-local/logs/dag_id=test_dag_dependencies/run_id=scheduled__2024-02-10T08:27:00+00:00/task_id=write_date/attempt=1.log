@@ -1,0 +1,42 @@
+[2024-02-10 09:23:55,254] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:27:00+00:00 [queued]>
+[2024-02-10 09:34:44,941] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:27:00+00:00 [queued]>
+[2024-02-10 09:34:45,098] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:34:45,105] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-02-10 09:34:45,113] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-10 09:34:50,155] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): write_date> on 2024-02-10 08:27:00+00:00
+[2024-02-10 09:34:50,618] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag_dependencies', 'write_date', 'scheduled__2024-02-10T08:27:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_dependencies.py', '--cfg-path', '/tmp/tmpif5248ay', '--error-file', '/tmp/tmpxam5g8ra']
+[2024-02-10 09:34:50,593] {standard_task_runner.py:52} INFO - Started process 35392 to run task
+[2024-02-10 09:34:50,792] {standard_task_runner.py:80} INFO - Job 99: Subtask write_date
+[2024-02-10 09:34:56,124] {task_command.py:369} INFO - Running <TaskInstance: test_dag_dependencies.write_date scheduled__2024-02-10T08:27:00+00:00 [running]> on host f4c5b03650dc
+[2024-02-10 09:35:29,134] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=fidiasierides@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Fidias
+AIRFLOW_CTX_DAG_ID=test_dag_dependencies
+AIRFLOW_CTX_TASK_ID=write_date
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-10T08:27:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-10T08:27:00+00:00
+[2024-02-10 09:35:29,374] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-10 09:35:29,435] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'cd "~/Documents/GitHub/weather-data-store" && date >> date.txt']
+[2024-02-10 09:35:30,685] {subprocess.py:85} INFO - Output:
+[2024-02-10 09:35:32,826] {local_task_job.py:221} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-02-10 09:35:33,162] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 35392. PIDs of all processes in the group: [35401, 35392]
+[2024-02-10 09:35:33,312] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 35392
+[2024-02-10 09:35:33,583] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-10 09:35:33,634] {subprocess.py:103} INFO - Sending SIGTERM signal to process group
+[2024-02-10 09:35:37,435] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 189, in execute
+    cwd=self.cwd,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 90, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b''):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1543, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-02-10 09:35:39,919] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=test_dag_dependencies, task_id=write_date, execution_date=20240210T082700, start_date=20240210T092355, end_date=20240210T093539
+[2024-02-10 09:35:46,460] {standard_task_runner.py:97} ERROR - Failed to execute job 99 for task write_date (Task received SIGTERM signal; 35392)
+[2024-02-10 09:35:47,391] {process_utils.py:75} INFO - Process psutil.Process(pid=35392, status='terminated', exitcode=1, started='09:34:49') (35392) terminated with exit code 1
+[2024-02-10 09:35:48,044] {process_utils.py:75} INFO - Process psutil.Process(pid=35401, status='terminated', started='09:35:11') (35401) terminated with exit code None
